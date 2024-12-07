@@ -16,11 +16,11 @@ public class ClientDemo {
 
             // I. Insert Records
             Client client = new Client();
-            client.setName("John Doe");
+            client.setName("venu");
             client.setGender("Male");
-            client.setAge(30);
-            client.setLocation("New York");
-            client.setEmail("john.doe@example.com");
+            client.setAge(20);
+            client.setLocation("vijayawada");
+            client.setEmail("2200033044@kluniversity.in");
             client.setMobile("1234567890");
             session.save(client);
 
